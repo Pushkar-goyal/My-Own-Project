@@ -1,0 +1,1196 @@
+[
+  {
+    "id": "pm_kisan",
+    "name": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+    "category": "Agriculture & Rural",
+    "nodalMinistry": "Ministry of Agriculture & Farmers Welfare",
+    "description": "Income support scheme providing ₹6,000 per year directly into the bank accounts of farmer families.",
+    "benefits": "₹6,000 direct annual financial assistance.",
+    "states": [
+      "All",
+      "Haryana",
+      "Uttar Pradesh",
+      "Maharashtra"
+    ],
+    "lifeSituations": [
+      "Farming / Agriculture",
+      "Land / Agriculture"
+    ],
+    "requirements": [
+      {
+        "field": "age",
+        "operator": ">=",
+        "value": 18,
+        "label": "Minimum age 18"
+      },
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 300000,
+        "label": "Income below ₹3,00,000"
+      },
+      {
+        "field": "occupation",
+        "operator": "==",
+        "value": "Farmer",
+        "label": "Must be a Farmer"
+      },
+      {
+        "field": "landOwnership",
+        "operator": "==",
+        "value": true,
+        "label": "Must own agricultural land"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Land Patta / Khasra-Khatauni",
+      "Bank Passbook / Cancelled Cheque"
+    ],
+    "deadline": "2026-10-15",
+    "officialUrl": "https://pmkisan.gov.in/RegistrationFormNew.aspx",
+    "verificationRequired": true,
+    "level": "Central"
+  },
+  {
+    "id": "ayushman_bharat",
+    "name": "Ayushman Bharat - PM-JAY",
+    "category": "Healthcare & Wellness",
+    "nodalMinistry": "Ministry of Health and Family Welfare",
+    "description": "World's largest government-funded health insurance scheme offering ₹5 Lakh per family.",
+    "benefits": "₹5,000,000 annual health cover per family.",
+    "states": [
+      "All"
+    ],
+    "lifeSituations": [
+      "Looking for a Job",
+      "Starting a Business",
+      "Farming / Agriculture",
+      "Marriage",
+      "Senior Citizen"
+    ],
+    "requirements": [
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 250000,
+        "label": "Income below ₹2,50,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Ration Card (APL/BPL/AAY)",
+      "Income Certificate"
+    ],
+    "deadline": null,
+    "officialUrl": "https://beneficiary.nha.gov.in/",
+    "verificationRequired": true,
+    "level": "Central"
+  },
+  {
+    "id": "post_matric_scholarship",
+    "name": "Post-Matric Scholarship for SC/ST/OBC Students",
+    "category": "Education & Student Aid",
+    "nodalMinistry": "Ministry of Social Justice and Empowerment",
+    "description": "Financial assistance to students pursuing post-matriculation or post-secondary courses.",
+    "benefits": "100% tuition fee waiver plus monthly allowance.",
+    "states": [
+      "All"
+    ],
+    "lifeSituations": [
+      "Starting College",
+      "Education & Skills"
+    ],
+    "requirements": [
+      {
+        "field": "age",
+        "operator": ">=",
+        "value": 15,
+        "label": "Minimum age 15"
+      },
+      {
+        "field": "age",
+        "operator": "<=",
+        "value": 30,
+        "label": "Maximum age 30"
+      },
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 250000,
+        "label": "Income below ₹2,50,000"
+      },
+      {
+        "field": "occupation",
+        "operator": "==",
+        "value": "Student",
+        "label": "Must be a Student"
+      },
+      {
+        "field": "maritalStatus",
+        "operator": "==",
+        "value": "Single",
+        "label": "Must be Single"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Marksheet",
+      "Caste Certificate",
+      "Income Certificate",
+      "Domicile Certificate",
+      "Bank Passbook / Cancelled Cheque"
+    ],
+    "deadline": "2026-11-30",
+    "officialUrl": "https://scholarships.gov.in/fresh/newstdRegfrmInstruction",
+    "verificationRequired": true,
+    "level": "Central"
+  },
+  {
+    "id": "pm_mudra_shishu",
+    "name": "Pradhan Mantri MUDRA Yojana (Shishu Loan)",
+    "category": "Business & Microfinance",
+    "nodalMinistry": "Ministry of Finance",
+    "description": "Collateral-free business loan up to ₹50,000 for micro-enterprises and startups.",
+    "benefits": "Collateral-free loan up to ₹50,000.",
+    "states": [
+      "All"
+    ],
+    "lifeSituations": [
+      "Starting a Business"
+    ],
+    "requirements": [
+      {
+        "field": "age",
+        "operator": ">=",
+        "value": 18,
+        "label": "Minimum age 18"
+      },
+      {
+        "field": "occupation",
+        "operator": "==",
+        "value": "Self-Employed",
+        "label": "Must be Self-Employed or starting a business"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Bank Passbook / Cancelled Cheque"
+    ],
+    "deadline": null,
+    "officialUrl": "https://www.udyamimitra.in/MudraLoan",
+    "verificationRequired": true,
+    "level": "Central"
+  },
+  {
+    "id": "nsap_old_age_pension",
+    "name": "Indira Gandhi National Old Age Pension Scheme",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Ministry of Rural Development",
+    "description": "Monthly pension assistance to senior citizens belonging to BPL households.",
+    "benefits": "Monthly pension of ₹500 to ₹1,000.",
+    "states": [
+      "All"
+    ],
+    "lifeSituations": [
+      "Senior Citizen"
+    ],
+    "requirements": [
+      {
+        "field": "age",
+        "operator": ">=",
+        "value": 60,
+        "label": "Minimum age 60"
+      },
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 150000,
+        "label": "Income below ₹1,50,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Voter ID Card",
+      "Ration Card (APL/BPL/AAY)",
+      "Bank Passbook / Cancelled Cheque"
+    ],
+    "deadline": null,
+    "officialUrl": "https://nsap.nic.in",
+    "verificationRequired": true,
+    "level": "Central"
+  },
+  {
+    "id": "pmay_gramin",
+    "name": "Pradhan Mantri Awas Yojana (PMAY-G)",
+    "category": "Housing & Infrastructure",
+    "nodalMinistry": "Ministry of Rural Development",
+    "description": "Financial assistance scheme to construct pucca houses with basic amenities.",
+    "benefits": "₹1,20,000 grant for house construction.",
+    "states": [
+      "All"
+    ],
+    "lifeSituations": [
+      "Looking for Housing Support"
+    ],
+    "requirements": [
+      {
+        "field": "age",
+        "operator": ">=",
+        "value": 18,
+        "label": "Minimum age 18"
+      },
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 200000,
+        "label": "Income below ₹2,00,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Ration Card (APL/BPL/AAY)",
+      "Bank Passbook / Cancelled Cheque"
+    ],
+    "deadline": "2026-12-31",
+    "officialUrl": "https://pmayg.nic.in",
+    "verificationRequired": true,
+    "level": "Central"
+  },
+  {
+    "id": "up_kanya_sumangala",
+    "name": "Mukhyamantri Kanya Sumangala Yojana",
+    "level": "State (Uttar Pradesh)",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Department of Women and Child Development, UP",
+    "description": "Financial assistance to families with girl children in Uttar Pradesh to promote education and health.",
+    "benefits": "Up to ₹15,000 per girl child across different stages of education.",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "lifeSituations": [
+      "Starting College",
+      "Education & Skills"
+    ],
+    "requirements": [
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 300000,
+        "label": "Family income below ₹3,00,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "Income Certificate",
+      "Bank Passbook / Cancelled Cheque"
+    ],
+    "deadline": null,
+    "officialUrl": "https://mksy.up.gov.in/",
+    "verificationRequired": true
+  },
+  {
+    "id": "mh_ladki_bahin",
+    "name": "Mukhyamantri Majhi Ladki Bahin Yojana",
+    "level": "State (Maharashtra)",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Government of Maharashtra",
+    "description": "Monthly financial assistance to eligible women in Maharashtra for economic independence.",
+    "benefits": "₹1,500 monthly assistance.",
+    "states": [
+      "Maharashtra"
+    ],
+    "lifeSituations": [
+      "Looking for a Job",
+      "Starting a Business"
+    ],
+    "requirements": [
+      {
+        "field": "age",
+        "operator": ">=",
+        "value": 21,
+        "label": "Minimum age 21"
+      },
+      {
+        "field": "age",
+        "operator": "<=",
+        "value": 65,
+        "label": "Maximum age 65"
+      },
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 250000,
+        "label": "Income below ₹2,50,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "Income Certificate",
+      "Bank Passbook / Cancelled Cheque"
+    ],
+    "deadline": "2026-12-31",
+    "officialUrl": "https://ladkibahin.maharashtra.gov.in/",
+    "verificationRequired": true
+  },
+  {
+    "id": "hr_parivar_samriddhi",
+    "name": "Mukhya Mantri Parivar Samriddhi Yojana (MMPSY)",
+    "level": "State (Haryana)",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Government of Haryana",
+    "description": "Social security net providing life/accidental insurance and pension benefits to families in Haryana.",
+    "benefits": "₹6,000 per year towards insurance premiums and pension.",
+    "states": [
+      "Haryana"
+    ],
+    "lifeSituations": [
+      "Senior Citizen",
+      "Farming / Agriculture"
+    ],
+    "requirements": [
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 180000,
+        "label": "Income below ₹1,80,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Ration Card (APL/BPL/AAY)",
+      "Bank Passbook / Cancelled Cheque"
+    ],
+    "deadline": null,
+    "officialUrl": "https://cm-psy.haryana.gov.in/",
+    "verificationRequired": true
+  },
+  {
+    "id": "andhra_pradesh_kalyan_yojana",
+    "name": "Andhra Pradesh Jan Kalyan Yojana",
+    "level": "State (Andhra Pradesh)",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Government of Andhra Pradesh",
+    "description": "State-specific social security and financial assistance scheme for the residents of Andhra Pradesh.",
+    "benefits": "Various state-specific benefits and financial aid.",
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "lifeSituations": [
+      "Farming / Agriculture",
+      "Looking for a Job",
+      "Senior Citizen"
+    ],
+    "requirements": [
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 250000,
+        "label": "Income below ₹2,50,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "Ration Card (APL/BPL/AAY)"
+    ],
+    "deadline": null,
+    "officialUrl": "https://andhrapradesh.gov.in/",
+    "verificationRequired": true
+  },
+  {
+    "id": "arunachal_pradesh_kalyan_yojana",
+    "name": "Arunachal Pradesh Jan Kalyan Yojana",
+    "level": "State (Arunachal Pradesh)",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Government of Arunachal Pradesh",
+    "description": "State-specific social security and financial assistance scheme for the residents of Arunachal Pradesh.",
+    "benefits": "Various state-specific benefits and financial aid.",
+    "states": [
+      "Arunachal Pradesh"
+    ],
+    "lifeSituations": [
+      "Farming / Agriculture",
+      "Looking for a Job",
+      "Senior Citizen"
+    ],
+    "requirements": [
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 250000,
+        "label": "Income below ₹2,50,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "Ration Card (APL/BPL/AAY)"
+    ],
+    "deadline": null,
+    "officialUrl": "https://arunachalpradesh.gov.in/",
+    "verificationRequired": true
+  },
+  {
+    "id": "assam_kalyan_yojana",
+    "name": "Assam Jan Kalyan Yojana",
+    "level": "State (Assam)",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Government of Assam",
+    "description": "State-specific social security and financial assistance scheme for the residents of Assam.",
+    "benefits": "Various state-specific benefits and financial aid.",
+    "states": [
+      "Assam"
+    ],
+    "lifeSituations": [
+      "Farming / Agriculture",
+      "Looking for a Job",
+      "Senior Citizen"
+    ],
+    "requirements": [
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 250000,
+        "label": "Income below ₹2,50,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "Ration Card (APL/BPL/AAY)"
+    ],
+    "deadline": null,
+    "officialUrl": "https://assam.gov.in/",
+    "verificationRequired": true
+  },
+  {
+    "id": "bihar_kalyan_yojana",
+    "name": "Bihar Jan Kalyan Yojana",
+    "level": "State (Bihar)",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Government of Bihar",
+    "description": "State-specific social security and financial assistance scheme for the residents of Bihar.",
+    "benefits": "Various state-specific benefits and financial aid.",
+    "states": [
+      "Bihar"
+    ],
+    "lifeSituations": [
+      "Farming / Agriculture",
+      "Looking for a Job",
+      "Senior Citizen"
+    ],
+    "requirements": [
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 250000,
+        "label": "Income below ₹2,50,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "Ration Card (APL/BPL/AAY)"
+    ],
+    "deadline": null,
+    "officialUrl": "https://bihar.gov.in/",
+    "verificationRequired": true
+  },
+  {
+    "id": "chhattisgarh_kalyan_yojana",
+    "name": "Chhattisgarh Jan Kalyan Yojana",
+    "level": "State (Chhattisgarh)",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Government of Chhattisgarh",
+    "description": "State-specific social security and financial assistance scheme for the residents of Chhattisgarh.",
+    "benefits": "Various state-specific benefits and financial aid.",
+    "states": [
+      "Chhattisgarh"
+    ],
+    "lifeSituations": [
+      "Farming / Agriculture",
+      "Looking for a Job",
+      "Senior Citizen"
+    ],
+    "requirements": [
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 250000,
+        "label": "Income below ₹2,50,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "Ration Card (APL/BPL/AAY)"
+    ],
+    "deadline": null,
+    "officialUrl": "https://chhattisgarh.gov.in/",
+    "verificationRequired": true
+  },
+  {
+    "id": "goa_kalyan_yojana",
+    "name": "Goa Jan Kalyan Yojana",
+    "level": "State (Goa)",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Government of Goa",
+    "description": "State-specific social security and financial assistance scheme for the residents of Goa.",
+    "benefits": "Various state-specific benefits and financial aid.",
+    "states": [
+      "Goa"
+    ],
+    "lifeSituations": [
+      "Farming / Agriculture",
+      "Looking for a Job",
+      "Senior Citizen"
+    ],
+    "requirements": [
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 250000,
+        "label": "Income below ₹2,50,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "Ration Card (APL/BPL/AAY)"
+    ],
+    "deadline": null,
+    "officialUrl": "https://goa.gov.in/",
+    "verificationRequired": true
+  },
+  {
+    "id": "gujarat_kalyan_yojana",
+    "name": "Gujarat Jan Kalyan Yojana",
+    "level": "State (Gujarat)",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Government of Gujarat",
+    "description": "State-specific social security and financial assistance scheme for the residents of Gujarat.",
+    "benefits": "Various state-specific benefits and financial aid.",
+    "states": [
+      "Gujarat"
+    ],
+    "lifeSituations": [
+      "Farming / Agriculture",
+      "Looking for a Job",
+      "Senior Citizen"
+    ],
+    "requirements": [
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 250000,
+        "label": "Income below ₹2,50,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "Ration Card (APL/BPL/AAY)"
+    ],
+    "deadline": null,
+    "officialUrl": "https://gujarat.gov.in/",
+    "verificationRequired": true
+  },
+  {
+    "id": "himachal_pradesh_kalyan_yojana",
+    "name": "Himachal Pradesh Jan Kalyan Yojana",
+    "level": "State (Himachal Pradesh)",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Government of Himachal Pradesh",
+    "description": "State-specific social security and financial assistance scheme for the residents of Himachal Pradesh.",
+    "benefits": "Various state-specific benefits and financial aid.",
+    "states": [
+      "Himachal Pradesh"
+    ],
+    "lifeSituations": [
+      "Farming / Agriculture",
+      "Looking for a Job",
+      "Senior Citizen"
+    ],
+    "requirements": [
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 250000,
+        "label": "Income below ₹2,50,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "Ration Card (APL/BPL/AAY)"
+    ],
+    "deadline": null,
+    "officialUrl": "https://himachalpradesh.gov.in/",
+    "verificationRequired": true
+  },
+  {
+    "id": "jharkhand_kalyan_yojana",
+    "name": "Jharkhand Jan Kalyan Yojana",
+    "level": "State (Jharkhand)",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Government of Jharkhand",
+    "description": "State-specific social security and financial assistance scheme for the residents of Jharkhand.",
+    "benefits": "Various state-specific benefits and financial aid.",
+    "states": [
+      "Jharkhand"
+    ],
+    "lifeSituations": [
+      "Farming / Agriculture",
+      "Looking for a Job",
+      "Senior Citizen"
+    ],
+    "requirements": [
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 250000,
+        "label": "Income below ₹2,50,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "Ration Card (APL/BPL/AAY)"
+    ],
+    "deadline": null,
+    "officialUrl": "https://jharkhand.gov.in/",
+    "verificationRequired": true
+  },
+  {
+    "id": "karnataka_kalyan_yojana",
+    "name": "Karnataka Jan Kalyan Yojana",
+    "level": "State (Karnataka)",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Government of Karnataka",
+    "description": "State-specific social security and financial assistance scheme for the residents of Karnataka.",
+    "benefits": "Various state-specific benefits and financial aid.",
+    "states": [
+      "Karnataka"
+    ],
+    "lifeSituations": [
+      "Farming / Agriculture",
+      "Looking for a Job",
+      "Senior Citizen"
+    ],
+    "requirements": [
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 250000,
+        "label": "Income below ₹2,50,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "Ration Card (APL/BPL/AAY)"
+    ],
+    "deadline": null,
+    "officialUrl": "https://karnataka.gov.in/",
+    "verificationRequired": true
+  },
+  {
+    "id": "kerala_kalyan_yojana",
+    "name": "Kerala Jan Kalyan Yojana",
+    "level": "State (Kerala)",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Government of Kerala",
+    "description": "State-specific social security and financial assistance scheme for the residents of Kerala.",
+    "benefits": "Various state-specific benefits and financial aid.",
+    "states": [
+      "Kerala"
+    ],
+    "lifeSituations": [
+      "Farming / Agriculture",
+      "Looking for a Job",
+      "Senior Citizen"
+    ],
+    "requirements": [
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 250000,
+        "label": "Income below ₹2,50,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "Ration Card (APL/BPL/AAY)"
+    ],
+    "deadline": null,
+    "officialUrl": "https://kerala.gov.in/",
+    "verificationRequired": true
+  },
+  {
+    "id": "madhya_pradesh_kalyan_yojana",
+    "name": "Madhya Pradesh Jan Kalyan Yojana",
+    "level": "State (Madhya Pradesh)",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Government of Madhya Pradesh",
+    "description": "State-specific social security and financial assistance scheme for the residents of Madhya Pradesh.",
+    "benefits": "Various state-specific benefits and financial aid.",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "lifeSituations": [
+      "Farming / Agriculture",
+      "Looking for a Job",
+      "Senior Citizen"
+    ],
+    "requirements": [
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 250000,
+        "label": "Income below ₹2,50,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "Ration Card (APL/BPL/AAY)"
+    ],
+    "deadline": null,
+    "officialUrl": "https://madhyapradesh.gov.in/",
+    "verificationRequired": true
+  },
+  {
+    "id": "manipur_kalyan_yojana",
+    "name": "Manipur Jan Kalyan Yojana",
+    "level": "State (Manipur)",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Government of Manipur",
+    "description": "State-specific social security and financial assistance scheme for the residents of Manipur.",
+    "benefits": "Various state-specific benefits and financial aid.",
+    "states": [
+      "Manipur"
+    ],
+    "lifeSituations": [
+      "Farming / Agriculture",
+      "Looking for a Job",
+      "Senior Citizen"
+    ],
+    "requirements": [
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 250000,
+        "label": "Income below ₹2,50,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "Ration Card (APL/BPL/AAY)"
+    ],
+    "deadline": null,
+    "officialUrl": "https://manipur.gov.in/",
+    "verificationRequired": true
+  },
+  {
+    "id": "meghalaya_kalyan_yojana",
+    "name": "Meghalaya Jan Kalyan Yojana",
+    "level": "State (Meghalaya)",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Government of Meghalaya",
+    "description": "State-specific social security and financial assistance scheme for the residents of Meghalaya.",
+    "benefits": "Various state-specific benefits and financial aid.",
+    "states": [
+      "Meghalaya"
+    ],
+    "lifeSituations": [
+      "Farming / Agriculture",
+      "Looking for a Job",
+      "Senior Citizen"
+    ],
+    "requirements": [
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 250000,
+        "label": "Income below ₹2,50,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "Ration Card (APL/BPL/AAY)"
+    ],
+    "deadline": null,
+    "officialUrl": "https://meghalaya.gov.in/",
+    "verificationRequired": true
+  },
+  {
+    "id": "mizoram_kalyan_yojana",
+    "name": "Mizoram Jan Kalyan Yojana",
+    "level": "State (Mizoram)",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Government of Mizoram",
+    "description": "State-specific social security and financial assistance scheme for the residents of Mizoram.",
+    "benefits": "Various state-specific benefits and financial aid.",
+    "states": [
+      "Mizoram"
+    ],
+    "lifeSituations": [
+      "Farming / Agriculture",
+      "Looking for a Job",
+      "Senior Citizen"
+    ],
+    "requirements": [
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 250000,
+        "label": "Income below ₹2,50,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "Ration Card (APL/BPL/AAY)"
+    ],
+    "deadline": null,
+    "officialUrl": "https://mizoram.gov.in/",
+    "verificationRequired": true
+  },
+  {
+    "id": "nagaland_kalyan_yojana",
+    "name": "Nagaland Jan Kalyan Yojana",
+    "level": "State (Nagaland)",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Government of Nagaland",
+    "description": "State-specific social security and financial assistance scheme for the residents of Nagaland.",
+    "benefits": "Various state-specific benefits and financial aid.",
+    "states": [
+      "Nagaland"
+    ],
+    "lifeSituations": [
+      "Farming / Agriculture",
+      "Looking for a Job",
+      "Senior Citizen"
+    ],
+    "requirements": [
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 250000,
+        "label": "Income below ₹2,50,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "Ration Card (APL/BPL/AAY)"
+    ],
+    "deadline": null,
+    "officialUrl": "https://nagaland.gov.in/",
+    "verificationRequired": true
+  },
+  {
+    "id": "odisha_kalyan_yojana",
+    "name": "Odisha Jan Kalyan Yojana",
+    "level": "State (Odisha)",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Government of Odisha",
+    "description": "State-specific social security and financial assistance scheme for the residents of Odisha.",
+    "benefits": "Various state-specific benefits and financial aid.",
+    "states": [
+      "Odisha"
+    ],
+    "lifeSituations": [
+      "Farming / Agriculture",
+      "Looking for a Job",
+      "Senior Citizen"
+    ],
+    "requirements": [
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 250000,
+        "label": "Income below ₹2,50,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "Ration Card (APL/BPL/AAY)"
+    ],
+    "deadline": null,
+    "officialUrl": "https://odisha.gov.in/",
+    "verificationRequired": true
+  },
+  {
+    "id": "punjab_kalyan_yojana",
+    "name": "Punjab Jan Kalyan Yojana",
+    "level": "State (Punjab)",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Government of Punjab",
+    "description": "State-specific social security and financial assistance scheme for the residents of Punjab.",
+    "benefits": "Various state-specific benefits and financial aid.",
+    "states": [
+      "Punjab"
+    ],
+    "lifeSituations": [
+      "Farming / Agriculture",
+      "Looking for a Job",
+      "Senior Citizen"
+    ],
+    "requirements": [
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 250000,
+        "label": "Income below ₹2,50,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "Ration Card (APL/BPL/AAY)"
+    ],
+    "deadline": null,
+    "officialUrl": "https://punjab.gov.in/",
+    "verificationRequired": true
+  },
+  {
+    "id": "rajasthan_kalyan_yojana",
+    "name": "Rajasthan Jan Kalyan Yojana",
+    "level": "State (Rajasthan)",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Government of Rajasthan",
+    "description": "State-specific social security and financial assistance scheme for the residents of Rajasthan.",
+    "benefits": "Various state-specific benefits and financial aid.",
+    "states": [
+      "Rajasthan"
+    ],
+    "lifeSituations": [
+      "Farming / Agriculture",
+      "Looking for a Job",
+      "Senior Citizen"
+    ],
+    "requirements": [
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 250000,
+        "label": "Income below ₹2,50,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "Ration Card (APL/BPL/AAY)"
+    ],
+    "deadline": null,
+    "officialUrl": "https://rajasthan.gov.in/",
+    "verificationRequired": true
+  },
+  {
+    "id": "sikkim_kalyan_yojana",
+    "name": "Sikkim Jan Kalyan Yojana",
+    "level": "State (Sikkim)",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Government of Sikkim",
+    "description": "State-specific social security and financial assistance scheme for the residents of Sikkim.",
+    "benefits": "Various state-specific benefits and financial aid.",
+    "states": [
+      "Sikkim"
+    ],
+    "lifeSituations": [
+      "Farming / Agriculture",
+      "Looking for a Job",
+      "Senior Citizen"
+    ],
+    "requirements": [
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 250000,
+        "label": "Income below ₹2,50,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "Ration Card (APL/BPL/AAY)"
+    ],
+    "deadline": null,
+    "officialUrl": "https://sikkim.gov.in/",
+    "verificationRequired": true
+  },
+  {
+    "id": "tamil_nadu_kalyan_yojana",
+    "name": "Tamil Nadu Jan Kalyan Yojana",
+    "level": "State (Tamil Nadu)",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Government of Tamil Nadu",
+    "description": "State-specific social security and financial assistance scheme for the residents of Tamil Nadu.",
+    "benefits": "Various state-specific benefits and financial aid.",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "lifeSituations": [
+      "Farming / Agriculture",
+      "Looking for a Job",
+      "Senior Citizen"
+    ],
+    "requirements": [
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 250000,
+        "label": "Income below ₹2,50,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "Ration Card (APL/BPL/AAY)"
+    ],
+    "deadline": null,
+    "officialUrl": "https://tamilnadu.gov.in/",
+    "verificationRequired": true
+  },
+  {
+    "id": "telangana_kalyan_yojana",
+    "name": "Telangana Jan Kalyan Yojana",
+    "level": "State (Telangana)",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Government of Telangana",
+    "description": "State-specific social security and financial assistance scheme for the residents of Telangana.",
+    "benefits": "Various state-specific benefits and financial aid.",
+    "states": [
+      "Telangana"
+    ],
+    "lifeSituations": [
+      "Farming / Agriculture",
+      "Looking for a Job",
+      "Senior Citizen"
+    ],
+    "requirements": [
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 250000,
+        "label": "Income below ₹2,50,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "Ration Card (APL/BPL/AAY)"
+    ],
+    "deadline": null,
+    "officialUrl": "https://telangana.gov.in/",
+    "verificationRequired": true
+  },
+  {
+    "id": "tripura_kalyan_yojana",
+    "name": "Tripura Jan Kalyan Yojana",
+    "level": "State (Tripura)",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Government of Tripura",
+    "description": "State-specific social security and financial assistance scheme for the residents of Tripura.",
+    "benefits": "Various state-specific benefits and financial aid.",
+    "states": [
+      "Tripura"
+    ],
+    "lifeSituations": [
+      "Farming / Agriculture",
+      "Looking for a Job",
+      "Senior Citizen"
+    ],
+    "requirements": [
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 250000,
+        "label": "Income below ₹2,50,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "Ration Card (APL/BPL/AAY)"
+    ],
+    "deadline": null,
+    "officialUrl": "https://tripura.gov.in/",
+    "verificationRequired": true
+  },
+  {
+    "id": "uttarakhand_kalyan_yojana",
+    "name": "Uttarakhand Jan Kalyan Yojana",
+    "level": "State (Uttarakhand)",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Government of Uttarakhand",
+    "description": "State-specific social security and financial assistance scheme for the residents of Uttarakhand.",
+    "benefits": "Various state-specific benefits and financial aid.",
+    "states": [
+      "Uttarakhand"
+    ],
+    "lifeSituations": [
+      "Farming / Agriculture",
+      "Looking for a Job",
+      "Senior Citizen"
+    ],
+    "requirements": [
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 250000,
+        "label": "Income below ₹2,50,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "Ration Card (APL/BPL/AAY)"
+    ],
+    "deadline": null,
+    "officialUrl": "https://uttarakhand.gov.in/",
+    "verificationRequired": true
+  },
+  {
+    "id": "west_bengal_kalyan_yojana",
+    "name": "West Bengal Jan Kalyan Yojana",
+    "level": "State (West Bengal)",
+    "category": "Social Welfare & Pension",
+    "nodalMinistry": "Government of West Bengal",
+    "description": "State-specific social security and financial assistance scheme for the residents of West Bengal.",
+    "benefits": "Various state-specific benefits and financial aid.",
+    "states": [
+      "West Bengal"
+    ],
+    "lifeSituations": [
+      "Farming / Agriculture",
+      "Looking for a Job",
+      "Senior Citizen"
+    ],
+    "requirements": [
+      {
+        "field": "income",
+        "operator": "<=",
+        "value": 250000,
+        "label": "Income below ₹2,50,000"
+      }
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "Ration Card (APL/BPL/AAY)"
+    ],
+    "deadline": null,
+    "officialUrl": "https://westbengal.gov.in/",
+    "verificationRequired": true
+  }
+]

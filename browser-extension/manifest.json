@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Bharat Sathi Portal Upload Helper",
+  "version": "0.2.0",
+  "description": "Attach a user-selected Bharat Sathi Vault document to a selected file field on a supported official portal.",
+  "permissions": ["activeTab", "storage", "tabs"],
+  "host_permissions": ["https://*.gov.in/*", "https://*.nic.in/*"],
+  "externally_connectable": {
+    "matches": [
+      "http://localhost:5173/*",
+      "http://127.0.0.1:5173/*"
+    ]
+  },
+  "background": { "service_worker": "service-worker.js" },
+  "content_scripts": [
+    {
+      "matches": ["https://*.gov.in/*", "https://*.nic.in/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": { "default_title": "Bharat Sathi Upload Helper", "default_popup": "popup.html" }
+}

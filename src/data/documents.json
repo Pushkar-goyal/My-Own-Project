@@ -1,0 +1,234 @@
+[
+  {
+    "id": "aadhaar",
+    "name": "Aadhaar Card",
+    "category": "Identity Proof",
+    "purpose": "Primary biometric unique identification proof issued by UIDAI for Indian residents.",
+    "issuingAuthority": "UIDAI (Unique Identification Authority of India)",
+    "digitallyAvailable": true
+  },
+  {
+    "id": "pan",
+    "name": "PAN Card",
+    "category": "Tax Documents",
+    "purpose": "Permanent Account Number required for financial transactions and income tax filing.",
+    "issuingAuthority": "Income Tax Department (NSDL / NCFSL)",
+    "digitallyAvailable": true
+  },
+  {
+    "id": "voter_id",
+    "name": "Voter ID Card (EPIC)",
+    "category": "Citizenship Proof",
+    "purpose": "Official photo identity proof for electoral participation and residency.",
+    "issuingAuthority": "Election Commission of India (ECI)",
+    "digitallyAvailable": true
+  },
+  {
+    "id": "passport",
+    "name": "Passport",
+    "category": "Passport Verification Docs",
+    "purpose": "International travel document and definitive identity/citizenship proof.",
+    "issuingAuthority": "Ministry of External Affairs (MEA)",
+    "digitallyAvailable": true
+  },
+  {
+    "id": "driving_license",
+    "name": "Driving Licence",
+    "category": "Vehicle Documents",
+    "purpose": "Permit to operate motor vehicles and official photo ID.",
+    "issuingAuthority": "Regional Transport Office (RTO)",
+    "digitallyAvailable": true
+  },
+  {
+    "id": "birth_certificate",
+    "name": "Birth Certificate",
+    "category": "Age/DOB Proof",
+    "purpose": "Official record establishing date, time, and place of birth.",
+    "issuingAuthority": "Municipal Corporation / Registrar of Births & Deaths",
+    "digitallyAvailable": true
+  },
+  {
+    "id": "income_certificate",
+    "name": "Income Certificate",
+    "category": "Income Proof",
+    "purpose": "Validates annual family income for subsidy schemes, reservations, and fee waivers.",
+    "issuingAuthority": "Revenue Department / Tehsildar",
+    "digitallyAvailable": true
+  },
+  {
+    "id": "caste_certificate",
+    "name": "Caste Certificate (SC/ST/OBC)",
+    "category": "Caste Certificate",
+    "purpose": "Proof of belonging to SC, ST, or OBC category for reservations and schemes.",
+    "issuingAuthority": "District Magistrate / Tehsildar",
+    "digitallyAvailable": true
+  },
+  {
+    "id": "domicile_certificate",
+    "name": "Domicile / Residence Certificate",
+    "category": "Residence/Domicile Proof",
+    "purpose": "Establishes permanent state residence for state-specific schemes and quota.",
+    "issuingAuthority": "Sub-Divisional Magistrate (SDM) / Tehsildar",
+    "digitallyAvailable": true
+  },
+  {
+    "id": "ration_card",
+    "name": "Ration Card (APL/BPL/AAY)",
+    "category": "Marriage & Family Documents",
+    "purpose": "Family composition proof for subsidized food grains and welfare coverage.",
+    "issuingAuthority": "Department of Food, Civil Supplies & Consumer Affairs",
+    "digitallyAvailable": true
+  },
+  {
+    "id": "bank_passbook",
+    "name": "Bank Passbook / Cancelled Cheque",
+    "category": "Financial Documents",
+    "purpose": "Proof of bank account, IFSC code, and Direct Benefit Transfer (DBT) routing.",
+    "issuingAuthority": "Scheduled Commercial Banks / Post Office",
+    "digitallyAvailable": true
+  },
+  {
+    "id": "disability_certificate",
+    "name": "Disability Certificate (UDID)",
+    "category": "Health Documents",
+    "purpose": "Unique Disability ID establishing degree of physical or mental disability.",
+    "issuingAuthority": "Medical Board / Department of Disability Affairs",
+    "digitallyAvailable": true
+  },
+  {
+    "id": "marriage_certificate",
+    "name": "Marriage Certificate",
+    "category": "Marriage & Family Documents",
+    "purpose": "Legal proof of marriage for joint applications and spousal pensions.",
+    "issuingAuthority": "Registrar of Marriages / Municipal Corporation",
+    "digitallyAvailable": true
+  },
+  {
+    "id": "electricity_bill",
+    "name": "Electricity Bill",
+    "category": "Address Proof",
+    "purpose": "Utility proof establishing current residential address.",
+    "issuingAuthority": "State Electricity Distribution Board / DISCOM",
+    "digitallyAvailable": true
+  },
+  {
+    "id": "water_bill",
+    "name": "Water Bill",
+    "category": "Address Proof",
+    "purpose": "Municipal utility proof for physical residency validation.",
+    "issuingAuthority": "Municipal Water Supply Board",
+    "digitallyAvailable": true
+  },
+  {
+    "id": "property_tax_receipt",
+    "name": "Property Tax Receipt / Khata",
+    "category": "Property Documents",
+    "purpose": "Establishes legal land/house ownership and valuation status.",
+    "issuingAuthority": "Revenue Department / Municipal Authority",
+    "digitallyAvailable": true
+  },
+  {
+    "id": "land_patta_khasra",
+    "name": "Land Patta / Khasra-Khatauni",
+    "category": "Agriculture Documents",
+    "purpose": "Proof of agricultural landholding size and land rights for farmers.",
+    "issuingAuthority": "State Land Records Department / Revenue Patwari",
+    "digitallyAvailable": true
+  },
+  {
+    "id": "10th_marksheet",
+    "name": "Class 10th Marksheet / Passing Certificate",
+    "category": "Educational Documents",
+    "purpose": "Educational background proof and widely accepted age proof.",
+    "issuingAuthority": "CBSE / ICSE / State Education Board",
+    "digitallyAvailable": true
+  },
+  {
+    "id": "degree_certificate",
+    "name": "College Graduation Degree Certificate",
+    "category": "Educational Documents",
+    "purpose": "Proof of higher education qualification for competitive schemes.",
+    "issuingAuthority": "UGC Recognized University",
+    "digitallyAvailable": true
+  },
+  {
+    "id": "salary_slip",
+    "name": "Salary Slip / Form 16",
+    "category": "Employment Documents",
+    "purpose": "Proof of employment and income validation for working individuals.",
+    "issuingAuthority": "Employer / Income Tax Department",
+    "digitallyAvailable": false
+  },
+  {
+    "id": "gst_registration",
+    "name": "GST Registration Certificate",
+    "category": "Business Documents",
+    "purpose": "Proof of business entity registration for micro and MSME loans.",
+    "issuingAuthority": "Goods and Services Tax Network (GSTN)",
+    "digitallyAvailable": true
+  },
+  {
+    "id": "udyam_certificate",
+    "name": "Udyam MSME Registration Certificate",
+    "category": "Business Documents",
+    "purpose": "Official recognition for micro, small, and medium enterprises.",
+    "issuingAuthority": "Ministry of Micro, Small & Medium Enterprises",
+    "digitallyAvailable": true
+  },
+  {
+    "id": "itr_acknowledgement",
+    "name": "ITR Verification Acknowledgement",
+    "category": "Tax Documents",
+    "purpose": "Proof of annual tax filing for business credit and subsidy audit.",
+    "issuingAuthority": "Income Tax Department",
+    "digitallyAvailable": true
+  },
+  {
+    "id": "vehicle_rc",
+    "name": "Vehicle Registration Certificate (RC)",
+    "category": "Vehicle Documents",
+    "purpose": "Official ownership proof of motor vehicle.",
+    "issuingAuthority": "Regional Transport Office (RTO)",
+    "digitallyAvailable": true
+  },
+  {
+    "id": "health_insurance_card",
+    "name": "Ayushman Bharat PM-JAY Card",
+    "category": "Government Scheme Docs",
+    "purpose": "Provides cashless health insurance coverage up to ₹5 Lakh per family.",
+    "issuingAuthority": "National Health Authority (NHA)",
+    "digitallyAvailable": true
+  },
+  {
+    "id": "police_clearance_certificate",
+    "name": "Police Clearance Certificate (PCC)",
+    "category": "Police Verification Docs",
+    "purpose": "Background check document for passport, employment, and security clearance.",
+    "issuingAuthority": "State Police Department / Passport Seva",
+    "digitallyAvailable": true
+  },
+  {
+    "id": "digilocker_verified_bundle",
+    "name": "DigiLocker Verified Account Badge",
+    "category": "Digital Government Documents",
+    "purpose": "Unified digital repository proof legally equivalent to original physical documents under IT Act.",
+    "issuingAuthority": "Ministry of Electronics and Information Technology (MeitY)",
+    "digitallyAvailable": true
+  },
+  {
+    "id": "passport_photo",
+    "name": "Passport Size Photograph",
+    "category": "Identity Proof",
+    "purpose": "Recent photograph required for official identification on scheme applications.",
+    "issuingAuthority": "Self / Authorized Studio",
+    "digitallyAvailable": true
+  },
+  {
+    "id": "applicant_signature",
+    "name": "Digital Signature Sample",
+    "category": "Identity Proof",
+    "purpose": "Signature image for application verification and document authentication.",
+    "issuingAuthority": "Self",
+    "digitallyAvailable": true
+  }
+]
